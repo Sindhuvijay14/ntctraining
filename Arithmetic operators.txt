@@ -1,0 +1,28 @@
+import java.io.*;
+
+public class Operators {
+
+	public static void main(String[] args) {
+		int a = 12, b = 6;
+
+		// TODO Auto-generated method stub
+		
+		System.out.println("Arithmetic operators");
+		// Addition operator
+		System.out.println("a + b = " + (a + b));
+
+		// Subtraction operator
+		System.out.println("a - b = " + (a - b));
+
+		// Multiplication operator
+		System.out.println("a * b = " + (a * b));
+
+		// Division operator
+		System.out.println("a / b = " + (a / b));
+
+		// Modulus operator
+		System.out.println("a % b = " + (a % b));
+
+	}
+
+}
