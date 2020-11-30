@@ -1,0 +1,26 @@
+public class Multiplicationtable {
+	int mul, a, b;
+
+	public int multiply(int a, int b) {
+		mul = a * b;
+		return mul;
+	}
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Multiplicationtable multiplication = new Multiplicationtable();
+		System.out.println(" Multiplication table of 2");
+		System.out.println(" 2*1= " + multiplication.multiply(2, 1));
+		System.out.println(" 2*2= " + multiplication.multiply(2, 2));
+		System.out.println(" 2*3= " + multiplication.multiply(2, 3));
+		System.out.println(" 2*4= " + multiplication.multiply(2, 4));
+		System.out.println(" 2*5= " + multiplication.multiply(2, 5));
+		System.out.println(" 2*6= " + multiplication.multiply(2, 6));
+		System.out.println(" 2*7= " + multiplication.multiply(2, 7));
+		System.out.println(" 2*8= " + multiplication.multiply(2, 8));
+		System.out.println(" 2*9= " + multiplication.multiply(2, 9));
+		System.out.println(" 2*10= " + multiplication.multiply(2, 10));
+
+	}
+
+}
