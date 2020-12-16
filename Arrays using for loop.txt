@@ -1,0 +1,17 @@
+
+
+public class Student {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+		int[] numbers = { 25, 30, 40, 50, 55, 60, 70, 75 };
+		int i = 0;
+		while (i < 5) {
+			System.out.println(numbers[i]);
+			i++;
+		}
+
+	}
+
+}
