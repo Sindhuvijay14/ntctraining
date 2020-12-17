@@ -1,0 +1,30 @@
+import java.util.Arrays;
+
+public class Student {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		int[] firstarray = { 1, 2, 3, 4, 5, 6, 7, 8, 9, 10 };
+
+		int[] duplicatearray = new int[6];
+		// Array copy
+		System.arraycopy(firstarray, 4, duplicatearray, 0, 6);
+		for (int i = 0; i < duplicatearray.length; i++) {
+			System.out.println(duplicatearray[i]);
+		}
+		// Arrays copy of range
+		int[] secondarray = Arrays.copyOfRange(firstarray, 3, 7);
+		System.out.println("Printing second array within range");
+		for (int i = 0; i < secondarray.length; i++) {
+			System.out.println(secondarray[i]);
+		}
+
+		// Array clone
+		int[] clonearray = secondarray.clone();
+		System.out.println("Printing clone array");
+		for (int i = 0; i < clonearray.length; i++) {
+			System.out.println(clonearray[i]);
+		}
+
+	}
+}
